@@ -5,7 +5,7 @@
 .components-menu-group + .components-menu-group {
 	margin-top: $grid-size;
 	padding-top: $grid-size;
-	border-top: $border-width solid $light-gray-500;
+	border-top: $border-width solid $border-color;
 }
 
 .components-menu-group__label {

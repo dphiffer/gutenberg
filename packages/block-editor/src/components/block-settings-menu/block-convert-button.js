@@ -14,7 +14,6 @@ export default function BlockConvertButton( { shouldRender, onClick, small } ) {
 		<MenuItem
 			className="block-editor-block-settings-menu__control"
 			onClick={ onClick }
-			icon="screenoptions"
 		>
 			{ ! small && label }
 		</MenuItem>

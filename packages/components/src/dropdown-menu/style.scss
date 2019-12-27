@@ -4,6 +4,7 @@
 
 .components-dropdown-menu__popover .components-popover__content {
 	width: 200px;
+	padding: 0;
 }
 
 .components-dropdown-menu__menu {
@@ -66,4 +67,16 @@
 			margin-right: 4px;
 		}
 	}
+
+	.components-menu-group {
+		padding: $grid-size;
+	}
+
+	.components-menu-group + .components-menu-group {
+		border-top: $border-width solid $border-color;
+	}
+}
+
+.components-dropdown-menu__menu.no-icons  .components-menu-item__button.components-button {
+	padding: 0 $grid-size;
 }
