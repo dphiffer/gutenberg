@@ -2,6 +2,10 @@
 
 The new editor is highly flexible, like most of WordPress. You can build custom blocks, modify the editor's appearance, add special plugins, and much more.
 
+## Environment Setup
+
+Before you start working with Gutenberg you will need to install some tools to help with the process. You'll need [node.js and some build packages](/docs/designers-developers/developers/tutorials/javascript/js-build-setup.md) to compile your Gutenberg code for the browser. To get more informative console debug messages, you may want to [enable `SCRIPT_DEBUG` in your wp-config.php](https://wordpress.org/support/article/debugging-in-wordpress/#script_debug). This loads the React JavaScript assets in an unminified form, giving you more details about when things go wrong.
+
 ## Creating Blocks
 
 The editor is about blocks, and the main extensibility API is the Block API. It allows you to create your own static blocks, [Dynamic Blocks](/docs/designers-developers/developers/tutorials/block-tutorial/creating-dynamic-blocks.md) ( rendered on the server ) and also blocks capable of saving data to Post Meta for more structured content.
